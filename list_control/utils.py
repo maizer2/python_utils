@@ -7,7 +7,7 @@ def difference_set_to_list(list1: List, list2: List) -> List:
     diff = set1 - set2
     return list(diff)
  
-def difference_set_to_set(list1: List, list2: List) -> List:
+def difference_set_to_set(list1: List, list2: List) -> set:
     set1 = set(list1)
     set2 = set(list2)
     diff = set1 - set2
